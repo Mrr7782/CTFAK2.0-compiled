@@ -1,3 +1,20 @@
+# TL;DR
+First of all, MAKE SURE YOU HAVE ENOUGH RAM! This app can take a few gigs when decompiling.
+
+To use CTFAK2.0, click on Releases on the right, download `CTFAK.Cli.zip`, and extract it anywhere you want.
+
+As this is a .NET program, you'll need to have the [.NET 6.0 Desktop Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) installed. The site is pretty confusing, but you'll need to find the heading that says ".NET Desktop Runtime 6.0.(number)", and then click on the "x64" link below that and run the installer. (or one of the other ones depending on your architecture, but if you're not sure, it's probably x64)
+
+Once that's installed, go into the folder you extracted and run `CTFAK.Cli.exe` (or just `CTFAK.Cli` if you have file extensions disabled, which is the default on Windows).
+
+A console window will open. Find the exe you want to decompile and drag it into the window. This will paste the file's path into the console. Then press enter twice and wait until it's done reading the file.
+
+Now you'll probably want to press 2 and enter to dump all the data from the game. Wait for a bit until it's done again, and then press 0 and enter to exit.
+
+The dumped data will be in a folder called `Dumps` (which will be created if it doesn't exist) in the same folder where `CTFAK.Cli.exe` is.
+
+The original README.md follows.
+
 > [!CAUTION]
 > CTFAK 2.0 is no longer being worked on and thus has been archived.
 
